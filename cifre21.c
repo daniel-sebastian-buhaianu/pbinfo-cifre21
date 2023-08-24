@@ -12,6 +12,9 @@ int main()
 		scanf("%u", &x);
 		
 		found = 0;
+
+		if (x == 0) found = 1;
+
 		while (x && !found) {
 			if (x % 10 == 0) found = 1;
 
@@ -25,4 +28,4 @@ int main()
 
 	return 0;
 }
-// scor 80/100
+// scor 100/100
